@@ -1,6 +1,6 @@
 # SecretSifter Desktop
 
-**Standalone desktop application for macOS and Windows**
+**Standalone desktop application for macOS and Windows:**
 Real-time secrets and credentials scanner for web application security testing.
 
 ---
