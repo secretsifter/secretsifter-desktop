@@ -1,0 +1,49 @@
+SecretSifter — End-User License Agreement (EULA)
+Copyright (c) 2026 Hemanth Gorijala. All rights reserved.
+
+IMPORTANT: READ THIS AGREEMENT CAREFULLY BEFORE INSTALLING OR USING SECRETSIFTER.
+By installing or using SecretSifter you agree to be bound by the terms below.
+If you do not agree, do not install or use the software.
+
+1. GRANT OF LICENSE
+   Hemanth Gorijala ("Developer") grants you a non-exclusive, non-transferable,
+   revocable license to install and use SecretSifter solely for your own
+   personal or internal business purposes.
+
+2. RESTRICTIONS
+   You may NOT, and you may not permit others to:
+   a) Copy, reproduce, redistribute, publish, or make the software available
+      to any third party in any form;
+   b) Modify, adapt, translate, reverse-engineer, decompile, disassemble, or
+      create derivative works based on the software or its source code;
+   c) Rent, lease, lend, sell, sublicense, or otherwise transfer rights in
+      the software to any third party;
+   d) Remove or alter any proprietary notices, labels, or marks on the software.
+
+3. OWNERSHIP
+   SecretSifter, including all source code, designs, algorithms, and
+   documentation, is and remains the exclusive intellectual property of
+   Hemanth Gorijala. This Agreement does not grant you any ownership rights.
+
+4. NO WARRANTIES
+   THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. THE DEVELOPER DOES NOT
+   WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE OR UNINTERRUPTED.
+
+5. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL THE DEVELOPER BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+   SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN
+   CONNECTION WITH YOUR USE OF THE SOFTWARE, EVEN IF ADVISED OF THE
+   POSSIBILITY OF SUCH DAMAGE.
+
+6. TERMINATION
+   This license is effective until terminated. It will terminate automatically
+   if you fail to comply with any of its terms. Upon termination you must
+   destroy all copies of the software in your possession.
+
+7. GOVERNING LAW
+   This Agreement shall be governed by and construed in accordance with
+   applicable law, without regard to conflict-of-law principles.
+
+Contact: gorijala2k16@gmail.com
