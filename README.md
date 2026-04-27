@@ -142,6 +142,12 @@ claude mcp add --transport http secretsifter-desktop \
 
 ---
 
+## 📚 Documentation
+
+- **[User Documentation](https://htmlpreview.github.io/?https://github.com/secretsifter/secretsifter-desktop/blob/main/docs/SecretSifter_Desktop_User_Documentation_v1.7.6.html)** — installation guide, every workflow, severity / confidence model, triage guide, settings reference, REST API quickstart, troubleshooting.
+
+---
+
 ## ⚙️ System Requirements
 
 - Windows 10 / 11 (x64)
