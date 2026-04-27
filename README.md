@@ -112,10 +112,10 @@ claude mcp add --transport http secretsifter-desktop \
 
 ## Screenshots
 
-### Scan Dashboard — live findings, severity badges, Burp-style Details panel
-![Scan Dashboard](images/SecretSifter-ScanDashboard.png)
+### Scan Dashboard — Burp-style Details / Request / Response panel for every finding
+![Scan Dashboard](images/SecretSifter-Scanner-Dashboard.jpg)
 
-### Scan Results — sortable, filterable findings table with severity badges
+### Scan Results — sortable / filterable findings table with severity badges
 ![Scan Results](images/SecretSifter-ScanResults.png)
 
 ### HTML Report — filterable, shareable deliverable
