@@ -142,15 +142,6 @@ claude mcp add --transport http secretsifter-desktop \
 
 ---
 
-## 📚 Documentation
-
-Two PDF-ready HTML companions ship with each release:
-
-- **[Engineering Reference](https://github.com/secretsifter/secretsifter-desktop/releases/latest)** — pipeline phases, every rule family, two-pass dedup architecture, capture-store internals, threading model, hardcoded thresholds, full version history.
-- **[User Documentation](https://github.com/secretsifter/secretsifter-desktop/releases/latest)** — installation guide, every workflow, severity / confidence model, triage guide, settings reference, REST API quickstart, troubleshooting.
-
----
-
 ## ⚙️ System Requirements
 
 - Windows 10 / 11 (x64)
