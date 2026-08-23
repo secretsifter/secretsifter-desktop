@@ -1,6 +1,6 @@
 # SecretSifter Desktop
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Proprietary EULA](https://img.shields.io/badge/License-Proprietary%20EULA-red.svg)](LICENSE.txt)
 [![Latest Release](https://img.shields.io/github/v/release/secretsifter/secretsifter-desktop?label=latest)](https://github.com/secretsifter/secretsifter-desktop/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/secretsifter/secretsifter-desktop/total?color=brightgreen)](https://github.com/secretsifter/secretsifter-desktop/releases)
 [![Platform: Windows](https://img.shields.io/badge/platform-Windows%2010%2F11-blue)](https://github.com/secretsifter/secretsifter-desktop/releases/latest)
@@ -189,10 +189,10 @@ SecretSifter is a security research and penetration testing tool. Use it **only*
 
 ## 📜 License
 
-[MIT License](LICENSE.txt) · Copyright © 2024–2026 Hemanth Gorijala.
+Proprietary — see the [End-User License Agreement](LICENSE.txt). Copyright © 2024–2026 Hemanth Gorijala. All rights reserved. The desktop application is distributed as a packaged build; its application source is not released under an open-source license. The shared detection engine is open source (MIT) at [secretsifter-burp](https://github.com/secretsifter/secretsifter-burp).
 
-The desktop edition bundles open-source components: Playwright for Java (Apache 2.0), Bouncy Castle (MIT-style), org.json (JSON License), Chromium (BSD), OpenJDK 21 (GPLv2 + Classpath Exception), WiX Toolset (MS-RL, build-time only).
+This packaged build bundles third-party open-source components under their own licenses: Playwright for Java (Apache 2.0), Bouncy Castle (MIT-style), org.json (JSON License), Chromium (BSD), OpenJDK 21 (GPLv2 + Classpath Exception), WiX Toolset (MS-RL, build-time only).
 
 ---
 
-<sub>SecretSifter v1.7.7 · Windows Desktop Edition · Author: Hemanth Gorijala · MIT License</sub>
+<sub>SecretSifter v1.7.7 · Windows Desktop Edition · Author: Hemanth Gorijala · Proprietary EULA</sub>
