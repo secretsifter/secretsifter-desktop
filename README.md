@@ -158,26 +158,11 @@ claude mcp add --transport http secretsifter-desktop \
 
 ---
 
-## 🔨 Building from Source
+## 📦 Builds & Distribution
 
-```powershell
-# Prerequisites: JDK 17+ with jpackage, WiX Toolset 3.11+ on PATH
+SecretSifter Desktop is distributed as signed, packaged builds — a Windows `.exe` installer and a portable app image — under a proprietary end-user license (see [LICENSE.txt](LICENSE.txt)). The desktop application source is not publicly released. Download the latest signed installer from the [Releases](https://github.com/secretsifter/secretsifter-desktop/releases/latest) page.
 
-cd secretsifter-windows
-.\gradlew.bat reinsertObfuscatedClasses    # obfuscated fat JAR (~1m)
-.\gradlew.bat buildAppImage                # portable app folder (~2m)
-.\gradlew.bat buildExeInstaller            # full Windows EXE installer (~3m)
-```
-
-> **Build hygiene:** delete every `secretsifter-<version>.jar` in `build/libs/` except the current version before each `buildExeInstaller` run. `jpackage --input` bundles every file in that directory into the installer image; stale per-version JARs balloon the EXE from ~240 MB to 1.8+ GB and can fail the WiX link step.
-
-Output:
-
-| Path | Artifact |
-|---|---|
-| `build/libs/secretsifter-<ver>.jar` | Obfuscated fat JAR |
-| `build/app-image-protected/SecretSifter/` | Portable folder + JRE |
-| `build/exe-installer/SecretSifter-<ver>.exe` | Windows installer |
+The open-source detection engine that powers every edition is available separately under the MIT License at [secretsifter-burp](https://github.com/secretsifter/secretsifter-burp).
 
 ---
 
