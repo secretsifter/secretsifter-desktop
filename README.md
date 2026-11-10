@@ -160,9 +160,9 @@ claude mcp add --transport http secretsifter-desktop \
 
 ## 📦 Builds & Distribution
 
-SecretSifter Desktop is distributed as signed, packaged builds — a Windows `.exe` installer and a portable app image — under a proprietary end-user license (see [LICENSE.txt](LICENSE.txt)). The desktop application source is not publicly released. Download the latest signed installer from the [Releases](https://github.com/secretsifter/secretsifter-desktop/releases/latest) page.
+SecretSifter Desktop is distributed as packaged builds — a macOS `.dmg` and a Windows `.exe` installer — under the **MIT License** (see [LICENSE.txt](LICENSE.txt)). Download the latest installer from the [Releases](https://github.com/secretsifter/secretsifter-desktop/releases/latest) page, or build it yourself from the source at [OWASP/SecretSifter `desktop/`](https://github.com/OWASP/SecretSifter/tree/main/desktop).
 
-The open-source detection engine that powers every edition is available separately under the MIT License at [secretsifter-burp](https://github.com/secretsifter/secretsifter-burp).
+The detection engine that powers every edition is open source (MIT) — see [OWASP/SecretSifter](https://github.com/OWASP/SecretSifter) and [secretsifter-burp](https://github.com/secretsifter/secretsifter-burp).
 
 ---
 
