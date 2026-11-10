@@ -1,25 +1,25 @@
 # SecretSifter Desktop
 
-[![License: Proprietary EULA](https://img.shields.io/badge/License-Proprietary%20EULA-red.svg)](LICENSE.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)
 [![Latest Release](https://img.shields.io/github/v/release/secretsifter/secretsifter-desktop?label=latest)](https://github.com/secretsifter/secretsifter-desktop/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/secretsifter/secretsifter-desktop/total?color=brightgreen)](https://github.com/secretsifter/secretsifter-desktop/releases)
-[![Platform: Windows](https://img.shields.io/badge/platform-Windows%2010%2F11-blue)](https://github.com/secretsifter/secretsifter-desktop/releases/latest)
+[![Platform: Windows & macOS](https://img.shields.io/badge/platform-Windows%20%26%20macOS-blue)](https://github.com/secretsifter/secretsifter-desktop/releases/latest)
 
 > **A standalone secret scanner for live web applications.**
 > Most secret scanners stop at the repository. The repository is not the attack surface — the running application is.
 
-SecretSifter Desktop is a Windows-native scanner that finds API keys, credentials, tokens, and PII inside live single-page apps, API responses, request headers, JavaScript bundles, and proxied traffic. It bundles a Playwright-driven crawler, an embedded MITM proxy, HAR import, and a Bearer-authenticated REST + MCP server — no Burp licence required.
+SecretSifter Desktop is a cross-platform (Windows & macOS) scanner that finds API keys, credentials, tokens, and PII inside live single-page apps, API responses, request headers, JavaScript bundles, and proxied traffic. It bundles a Playwright-driven crawler, an embedded MITM proxy, HAR import, and a Bearer-authenticated REST + MCP server — no Burp licence required.
 
 ---
 
 ## ⬇️ Quick Install
 
-1. Grab **`SecretSifter-1.7.7.exe`** from the [latest release](https://github.com/secretsifter/secretsifter-desktop/releases/latest).
-2. Double-click. Windows SmartScreen → *More info → Run anyway*.
-3. Per-user install, no admin rights. Default path: `%LOCALAPPDATA%\SecretSifter`.
-4. Launch from Start Menu. Paste a URL into the Scan tab → click **Start Scan**.
+**macOS** — Grab **`SecretSifter-1.8.0.dmg`** from the [latest release](https://github.com/secretsifter/secretsifter-desktop/releases/latest), open it, and drag **SecretSifter** to Applications.
 
-That's it. Java is bundled. Chrome is auto-detected (or falls back to system Edge / bundled Chromium).
+**Windows** — Grab the latest **`.exe`** from [Releases](https://github.com/secretsifter/secretsifter-desktop/releases). Double-click → SmartScreen *More info → Run anyway*. Per-user install, no admin rights.
+
+Then launch, paste a URL into the Scan tab → click **Start Scan**. Java is bundled; Chrome is auto-detected (or falls back to system Edge / bundled Chromium).
+
 
 ---
 
@@ -174,10 +174,10 @@ SecretSifter is a security research and penetration testing tool. Use it **only*
 
 ## 📜 License
 
-Proprietary — see the [End-User License Agreement](LICENSE.txt). Copyright © 2024–2026 Hemanth Gorijala. All rights reserved. The desktop application is distributed as a packaged build; its application source is not released under an open-source license. The shared detection engine is open source (MIT) at [secretsifter-burp](https://github.com/secretsifter/secretsifter-burp).
+**MIT License** — see [LICENSE.txt](LICENSE.txt). Copyright © 2024–2026 Hemanth Gorijala. SecretSifter Desktop is open source and part of the [OWASP SecretSifter](https://owasp.org/www-project-secretsifter/) project; the full application source is published at [OWASP/SecretSifter `desktop/`](https://github.com/OWASP/SecretSifter/tree/main/desktop).
 
 This packaged build bundles third-party open-source components under their own licenses: Playwright for Java (Apache 2.0), Bouncy Castle (MIT-style), org.json (JSON License), Chromium (BSD), OpenJDK 21 (GPLv2 + Classpath Exception), WiX Toolset (MS-RL, build-time only).
 
 ---
 
-<sub>SecretSifter v1.7.7 · Windows Desktop Edition · Author: Hemanth Gorijala · Proprietary EULA</sub>
+<sub>SecretSifter v1.8.0 · Desktop Edition (macOS & Windows) · Author: Hemanth Gorijala · MIT License · part of the OWASP SecretSifter project</sub>
